@@ -1,6 +1,7 @@
 use std::{error::Error, process};
 
 const IMAGE_SIZE: usize = 784;
+extern crate nalgebra as na;
 
 #[derive(Debug, serde::Deserialize)]
 struct MinstRecord {
